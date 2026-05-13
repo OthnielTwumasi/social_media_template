@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Social Media Links</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial,Helvetica, sans-serif;
+                color: white;
+            }
+            body{
+                background-color: black;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            body>div{
+                background-color: hsl(0, 0%, 8%);
+                width: 25%;
+                height: 50%;
+                padding: 1.5%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+             
+
+            }
+            .avatar_container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .avatar{
+                 display: flex;
+                justify-content: center;
+            }
+
+            .avatar>img{
+                border-radius: 50%;
+                width: 70%;
+               
+            }
+            .link_container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .name{
+                text-align: center;
+                margin-top: 10px;  
+            }
+            .text>p{
+                font-weight:lighter;
+                text-align: center;
+                font-size: 10px;
+            }
+
+            .github{
+                width: 95%;
+                background-color: hsl(0, 0%, 12%);
+                height: 36px;
+                border-radius: 7px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .github:hover{
+                background-color:gray;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="avatar_container">
+                <div class="avatar">
+                    <img src="images/avatar-jessica.jpeg">
+                </div>
+                <div class="name">
+                    <h2>Othniel Otuo Twumasi</h2>
+                    <h6>Accra,Ghana</h6>
+                </div>
+            </div>
+            <div class="link_container">
+                <div class="text"><p>"Front-end developer and avid reader"</p></div>
+                <div class="github"><p>Github</p></div>
+                <div class="github"><p>Instagram</p></div>
+                <div class="github"><p>Youtube</p></div>
+               
+
+            </div>
+            
+        </div>
+    </body>
+</html>
